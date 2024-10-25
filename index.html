@@ -22,6 +22,15 @@
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
       text-align: center;
       position: relative;
+      width: 90%; /* Set a width for larger mobile card */
+      max-width: 600px; /* Set a max width for larger screens */
+    }
+
+    @media (max-width: 600px) {
+        .birthday-card {
+        padding: 60px; /* Increase padding for mobile */
+        font-size: 1.2em; /* Optional: Increase font size for better readability */
+        }  
     }
 
     h1 {
