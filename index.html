@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday, Dea !</title>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Indie Flower', cursive;
+      background: #ffe6f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .birthday-card {
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      color: #f08080;
+      margin-bottom: 10px;
+      font-size: 3em;
+    }
+
+    .cake {
+      width: 150px;
+      animation: cakeBounce 1s infinite alternate ease-in-out;
+    }
+
+    @keyframes cakeBounce {
+      from {
+        transform: translateY(0);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="birthday-card">
+    <h1>Happy Birthday, Dea !</h1>
+    <p>Wishing you a day filled with joy and happiness.</p>
+    <img src="foto.png"
+      alt="Birthday Cake" class="cake">
+  </div>
+</body>
+</html>
